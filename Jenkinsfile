@@ -1,10 +1,3 @@
-        stage('Deliver') {
-            steps {
-                sh './jenkins/scripts/deliver.sh'
-            }
-        }
-最终的代码为：
-
 pipeline {
     agent {
         docker {
